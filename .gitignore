@@ -1,3 +1,8 @@
+# Other
+*.mp4
+deliverables
+deliverables.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
