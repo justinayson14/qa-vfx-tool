@@ -348,7 +348,7 @@ args = parser.parse_args()
 
 # Get MongoDB client and database
 myclient = pymongo.MongoClient(
-    "mongodb+srv://justinayson815:024481869@467chaja.aslhy.mongodb.net/?retryWrites=true&w=majority&appName=467Chaja"
+    "mongodb+srv://${MONGODB_USER}:${MONGODB_PASS}@467chaja.aslhy.mongodb.net/?retryWrites=true&w=majority&appName=467Chaja"
 )
 mydb = myclient["467-proj4"]
 
