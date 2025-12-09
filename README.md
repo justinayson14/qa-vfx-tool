@@ -11,6 +11,20 @@ The script can:
 - Upload the rendered clips to Vimeo for easy review.
 - Generate a CSV report (`unused_frames.csv`) of frames that are outside the video's duration.
 
+## Technologies Used
+
+- **Language:** Python 3
+- **Database:** MongoDB
+- **Video Processing:** FFmpeg
+- **Cloud Services:** Vimeo API
+- **Key Python Libraries:**
+  - `pandas` for data manipulation and Excel/CSV generation.
+  - `pymongo` for interacting with MongoDB.
+  - `ffmpeg-python` for video processing and thumbnail generation.
+  - `openpyxl` for embedding thumbnails into the Excel report.
+  - `python-vimeo` for uploading videos to Vimeo.
+  - `python-dotenv` for managing environment variables.
+
 ## Prerequisites
 
 Before running the script, you need to have the following installed:
